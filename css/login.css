@@ -1,0 +1,362 @@
+/* ========================================
+   CROWN COUTURE LOGIN
+======================================== */
+
+.cc-login {
+    background: #fff;
+    min-height: 100vh;
+}
+
+/* LEFT SIDE */
+
+.cc-login-left {
+    background: #000;
+    color: #fff;
+    padding: 45px 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cc-login-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cc-login-brand img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.cc-login-brand h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+
+.cc-login-message {
+    max-width: 580px;
+    padding-bottom: 80px;
+}
+
+.cc-login-message span,
+.cc-login-heading span {
+    color: #556b2f;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.cc-login-message h2 {
+    margin: 20px 0;
+    font-size: clamp(3.5rem, 6vw, 6rem);
+    line-height: .9;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cc-login-message h2 em {
+    display: block;
+    color: #556b2f;
+    font-style: normal;
+}
+
+.cc-login-message p {
+    max-width: 500px;
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* RIGHT SIDE */
+
+.cc-login-right {
+    background: #f5f5f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 30px;
+}
+
+.cc-login-box {
+    width: 100%;
+    max-width: 480px;
+    background: #fff;
+    padding: 55px;
+}
+
+.cc-login-heading {
+    margin-bottom: 35px;
+}
+
+.cc-login-heading h2 {
+    margin: 15px 0 10px;
+    color: #000;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: .95;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cc-login-heading h2 em {
+    color: #556b2f;
+    font-style: normal;
+}
+
+.cc-login-heading p {
+    margin: 0;
+    color: #777;
+    font-size: 13px;
+}
+
+
+/* LABELS */
+
+.cc-login-box label {
+    display: block;
+    margin-bottom: 8px;
+    color: #111;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+
+/* INPUT */
+
+.cc-input {
+    position: relative;
+}
+
+.cc-input > i {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: #777;
+    font-size: 15px;
+}
+
+.cc-input .form-control {
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    background: #fff;
+    color: #000;
+    padding: 12px 45px;
+    font-size: 13px;
+    box-shadow: none;
+}
+
+.cc-input .form-control:focus {
+    border-color: #556b2f;
+    box-shadow: 0 0 0 2px rgba(85, 107, 47, .1);
+}
+
+
+/* PASSWORD TOGGLE */
+
+.cc-password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    border: 0;
+    background: transparent;
+    color: #777;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.cc-password-toggle:hover {
+    color: #556b2f;
+}
+
+
+/* OPTIONS */
+
+.cc-login-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 25px;
+}
+
+.cc-login-options .form-check {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cc-login-options .form-check-input {
+    border-radius: 0;
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+.cc-login-options .form-check-input:checked {
+    background-color: #556b2f;
+    border-color: #556b2f;
+}
+
+.cc-login-options .form-check-label {
+    margin: 0;
+    color: #777;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.cc-login-options a {
+    color: #556b2f;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cc-login-options a:hover {
+    color: #000;
+}
+
+
+/* LOGIN BUTTON */
+
+.cc-login-btn {
+    width: 100%;
+    min-height: 52px;
+    border: 0;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.cc-login-btn:hover {
+    background: #556b2f;
+}
+
+
+/* SIGN UP */
+
+.cc-login-signup {
+    margin-top: 30px;
+    padding-top: 25px;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.cc-login-signup p {
+    margin: 0;
+    color: #777;
+    font-size: 12px;
+}
+
+.cc-login-signup a {
+    color: #556b2f;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.cc-login-signup a:hover {
+    color: #000;
+}
+
+
+/* BACK HOME */
+
+.cc-back-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 25px;
+    color: #000;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cc-back-home:hover {
+    color: #556b2f;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+    .cc-login-left {
+        min-height: 420px;
+        padding: 35px 30px;
+    }
+
+    .cc-login-message {
+        padding-bottom: 20px;
+    }
+
+    .cc-login-message h2 {
+        font-size: 4rem;
+    }
+
+    .cc-login-right {
+        padding: 50px 25px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .cc-login-left {
+        min-height: 360px;
+        padding: 25px 20px;
+    }
+
+    .cc-login-brand img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .cc-login-brand h1 {
+        font-size: 15px;
+    }
+
+    .cc-login-message {
+        padding-bottom: 5px;
+    }
+
+    .cc-login-message h2 {
+        font-size: 3rem;
+    }
+
+    .cc-login-message p {
+        font-size: 13px;
+    }
+
+    .cc-login-right {
+        padding: 30px 15px;
+    }
+
+    .cc-login-box {
+        padding: 35px 25px;
+    }
+
+    .cc-login-options {
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+}

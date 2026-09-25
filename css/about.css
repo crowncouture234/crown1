@@ -1,0 +1,385 @@
+/* ================= ABOUT HERO ================= */
+
+.cc-about-hero {
+    background: #f5f5f2;
+    overflow: hidden;
+}
+
+.cc-about-hero-content {
+    padding: 100px 8%;
+}
+
+.cc-about-label,
+.cc-about-small-title {
+    color: #556b2f;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.cc-about-hero h1 {
+    margin: 20px 0;
+    color: #000;
+    font-size: clamp(3rem, 6vw, 6rem);
+    font-weight: 800;
+    line-height: .9;
+    text-transform: uppercase;
+}
+
+.cc-about-hero h1 span {
+    display: block;
+    color: #556b2f;
+}
+
+.cc-about-hero p {
+    max-width: 500px;
+    color: #666;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.cc-about-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 25px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    transition: .3s;
+}
+
+.cc-about-btn:hover {
+    background: #556b2f;
+    color: #fff;
+}
+
+.cc-about-hero-image {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cc-about-hero-image img {
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    object-fit: contain;
+}
+
+
+/* ================= STORY ================= */
+
+.cc-about-story {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.cc-about-story h2,
+.cc-about-values h2 {
+    margin-top: 12px;
+    color: #000;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 800;
+    line-height: .95;
+    text-transform: uppercase;
+}
+
+.cc-about-story h2 span,
+.cc-about-values h2 span {
+    color: #556b2f;
+}
+
+.cc-about-story p {
+    color: #777;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.cc-about-story .cc-about-big-text {
+    color: #111;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
+/* ================= BANNER ================= */
+
+.cc-about-banner {
+    min-height: 500px;
+    background:
+        linear-gradient(
+            rgba(0,0,0,.7),
+            rgba(0,0,0,.7)
+        ),
+        url("../image/crown\ jojo.jpg")
+        center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cc-about-banner-content {
+    text-align: center;
+    color: #fff;
+    padding: 80px 20px;
+}
+
+.cc-about-banner-content span {
+    color: #556b2f;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.cc-about-banner-content h2 {
+    margin: 20px 0 0;
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    font-weight: 800;
+    line-height: .9;
+}
+
+
+/* ================= VALUES ================= */
+
+.cc-about-values {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.cc-value-card {
+    height: 100%;
+    padding: 35px;
+    background: #f5f5f2;
+    border-top: 3px solid #556b2f;
+    transition: .3s;
+}
+
+.cc-value-card:hover {
+    transform: translateY(-8px);
+}
+
+.cc-value-number {
+    color: #aaa;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.cc-value-card > i {
+    display: block;
+    margin: 35px 0 20px;
+    color: #556b2f;
+    font-size: 28px;
+}
+
+.cc-value-card h3 {
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cc-value-card p {
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* ================= MISSION ================= */
+
+.cc-about-mission {
+    background: #000;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.cc-about-mission span {
+    color: #556b2f;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.cc-about-mission h2 {
+    margin-top: 18px;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 800;
+    line-height: .95;
+    text-transform: uppercase;
+}
+
+.cc-about-mission h2 em {
+    display: block;
+    color: #556b2f;
+    font-style: normal;
+}
+
+.cc-about-mission p {
+    color: #aaa;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.cc-about-mission strong {
+    display: block;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/* ================= CTA ================= */
+
+.cc-about-cta {
+    background: #f5f5f2;
+    padding: 80px 0;
+}
+
+.cc-about-cta-box {
+    background: #556b2f;
+    color: #fff;
+    padding: 80px 20px;
+}
+
+.cc-about-cta-box span {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.cc-about-cta-box h2 {
+    margin: 15px 0;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cc-about-cta-box h2 em {
+    color: #000;
+    font-style: normal;
+}
+
+.cc-about-cta-box p {
+    color: #eee;
+    font-size: 14px;
+}
+
+.cc-about-cta-box a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    padding: 14px 25px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    transition: .3s;
+}
+
+.cc-about-cta-box a:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+    .cc-about-hero-content {
+        padding: 80px 30px 40px;
+        text-align: center;
+    }
+
+    .cc-about-hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cc-about-hero-image {
+        min-height: auto;
+        padding: 20px 30px 60px;
+    }
+
+    .cc-about-story,
+    .cc-about-values,
+    .cc-about-mission {
+        padding: 70px 0;
+    }
+
+    .cc-about-story {
+        text-align: center;
+    }
+
+    .cc-about-story p {
+        text-align: left;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .cc-about-hero-content {
+        padding: 60px 20px 30px;
+    }
+
+    .cc-about-hero h1 {
+        font-size: 3rem;
+    }
+
+    .cc-about-hero p {
+        font-size: 14px;
+    }
+
+    .cc-about-hero-image {
+        padding: 10px 20px 45px;
+    }
+
+    .cc-about-story,
+    .cc-about-values,
+    .cc-about-mission {
+        padding: 55px 0;
+    }
+
+    .cc-about-story h2,
+    .cc-about-values h2 {
+        font-size: 2.7rem;
+    }
+
+    .cc-about-story .cc-about-big-text {
+        font-size: 19px;
+    }
+
+    .cc-about-banner {
+        min-height: 400px;
+    }
+
+    .cc-value-card {
+        padding: 25px;
+    }
+
+    .cc-about-cta {
+        padding: 50px 0;
+    }
+
+    .cc-about-cta-box {
+        padding: 60px 20px;
+    }
+
+}

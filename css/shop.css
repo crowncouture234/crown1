@@ -1,0 +1,543 @@
+/* ==============================
+SHOP HERO
+============================== */
+
+.shop-hero {
+background: #f5f5f2;
+min-height: 75vh;
+display: flex;
+align-items: center;
+overflow: hidden;
+}
+
+.shop-hero-content {
+padding: 70px 7%;
+}
+
+.shop-eyebrow,
+.cc-products-eyebrow {
+color: #556b2f;
+font-size: 11px;
+font-weight: 800;
+letter-spacing: 2px;
+}
+
+.shop-eyebrow {
+display: inline-block;
+margin-bottom: 18px;
+}
+
+.shop-hero h1,
+.cc-products-heading h2 {
+color: #000;
+font-weight: 800;
+line-height: 1;
+text-transform: uppercase;
+}
+
+.shop-hero h1 {
+font-size: clamp(3rem, 6vw, 6rem);
+margin-bottom: 25px;
+}
+
+.shop-hero h1 span,
+.cc-products-heading h2 span {
+color: #556b2f;
+}
+
+.shop-hero h1 span {
+display: block;
+}
+
+.shop-hero p {
+max-width: 520px;
+color: #555;
+font-size: 16px;
+line-height: 1.7;
+margin-bottom: 30px;
+}
+
+.shop-hero-btn {
+display: inline-flex;
+align-items: center;
+gap: 10px;
+padding: 14px 25px;
+background: #000;
+color: #fff;
+text-decoration: none;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 1px;
+transition: .3s;
+}
+
+.shop-hero-btn:hover {
+background: #556b2f;
+color: #fff;
+}
+
+.shop-hero-image {
+min-height: 75vh;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 40px;
+}
+
+.shop-hero-image img {
+width: 100%;
+max-width: 600px;
+max-height: 600px;
+object-fit: contain;
+}
+
+/* ==============================
+SHOP TOOLBAR
+============================== */
+
+.cc-shop-toolbar {
+background: #f5f5f2;
+padding: 30px 0;
+border-block: 1px solid #e5e5e0;
+}
+
+.cc-category-wrapper,
+.cc-sort-wrapper {
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.cc-toolbar-label,
+.cc-sort-wrapper label {
+color: #777;
+font-size: 10px;
+font-weight: 800;
+letter-spacing: 2px;
+text-transform: uppercase;
+white-space: nowrap;
+}
+
+.cc-shop-categories {
+display: flex;
+flex-wrap: wrap;
+gap: 7px;
+}
+
+.cc-category-filter {
+padding: 9px 16px;
+border: 1px solid #d4d4ce;
+background: transparent;
+color: #222;
+font-size: 11px;
+font-weight: 700;
+text-transform: uppercase;
+cursor: pointer;
+transition: .25s;
+}
+
+.cc-category-filter:hover,
+.cc-category-filter.active {
+background: #556b2f;
+border-color: #556b2f;
+color: #fff;
+}
+
+.cc-sort-wrapper {
+justify-content: flex-end;
+}
+
+.cc-sort-select {
+min-width: 180px;
+}
+
+.cc-sort-select .form-select {
+border-radius: 0;
+border-color: #d4d4ce;
+box-shadow: none;
+font-size: 12px;
+padding: 10px 35px 10px 12px;
+}
+
+.cc-sort-select .form-select:focus {
+border-color: #556b2f;
+box-shadow: 0 0 0 2px rgba(85,107,47,.12);
+}
+
+/* ==============================
+PRODUCTS
+============================== */
+
+.cc-products {
+background: #fff;
+}
+
+.cc-products-heading {
+display: flex;
+align-items: end;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+
+.cc-products-heading h2 {
+font-size: clamp(2.2rem, 4vw, 4rem);
+margin: 8px 0 0;
+}
+
+.cc-products-heading p {
+color: #777;
+font-size: 13px;
+}
+
+/* PRODUCT CARD */
+
+.cc-product-card {
+height: 100%;
+}
+
+.cc-product-image {
+position: relative;
+height: 380px;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+background: #f5f5f2;
+}
+
+.cc-product-image img {
+width: 100%;
+height: 100%;
+padding: 25px;
+object-fit: contain;
+transition: .5s;
+}
+
+.cc-product-card:hover img {
+transform: scale(1.06);
+}
+
+.cc-product-badge {
+position: absolute;
+top: 12px;
+left: 12px;
+z-index: 2;
+padding: 6px 9px;
+background: #000;
+color: #fff;
+font-size: 8px;
+font-weight: 800;
+letter-spacing: 1px;
+}
+
+.cc-product-actions {
+position: absolute;
+top: 12px;
+right: 12px;
+display: flex;
+flex-direction: column;
+gap: 7px;
+opacity: 0;
+transform: translateX(10px);
+transition: .3s;
+}
+
+.cc-product-card:hover .cc-product-actions {
+opacity: 1;
+transform: none;
+}
+
+.cc-action-btn {
+width: 38px;
+height: 38px;
+border: 0;
+background: #fff;
+color: #000;
+cursor: pointer;
+}
+
+.cc-action-btn:hover {
+background: #556b2f;
+color: #fff;
+}
+
+.cc-product-info {
+padding: 15px 2px;
+}
+
+.cc-product-category {
+color: #888;
+font-size: 9px;
+font-weight: 800;
+letter-spacing: 1.5px;
+}
+
+.cc-product-info h3 {
+margin: 7px 0 13px;
+color: #111;
+font-size: 15px;
+font-weight: 700;
+}
+
+.cc-product-bottom {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 8px;
+}
+
+.cc-product-price {
+color: #000;
+font-size: 14px;
+font-weight: 800;
+}
+
+.cc-add-cart {
+border: 0;
+background: none;
+color: #556b2f;
+font-size: 9px;
+font-weight: 800;
+letter-spacing: 1px;
+}
+
+.cc-add-cart:hover {
+color: #000;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+.shop-hero {
+    min-height: auto;
+}
+
+.shop-hero-content {
+    padding: 70px 30px 30px;
+    text-align: center;
+}
+
+.shop-hero p {
+    margin-inline: auto;
+}
+
+.shop-hero-image {
+    min-height: auto;
+    padding: 20px 30px 60px;
+}
+
+.cc-category-wrapper {
+    display: block;
+}
+
+.cc-toolbar-label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.cc-sort-wrapper {
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+}
+
+@media (max-width: 576px) {
+.shop-hero-content {
+    padding: 55px 20px 20px;
+}
+
+.shop-hero h1 {
+    font-size: 3rem;
+}
+
+.shop-hero p {
+    font-size: 14px;
+}
+
+.shop-hero-image {
+    padding: 10px 20px 45px;
+}
+
+.cc-shop-toolbar {
+    padding: 22px 0;
+}
+
+.cc-shop-categories {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.cc-shop-categories::-webkit-scrollbar {
+    display: none;
+}
+
+.cc-category-filter {
+    flex: 0 0 auto;
+}
+
+.cc-products-heading {
+    display: block;
+}
+
+.cc-products-heading p {
+    margin-top: 12px;
+}
+
+.cc-product-image {
+    height: 260px;
+}
+
+.cc-product-image img {
+    padding: 15px;
+}
+
+.cc-product-actions {
+    opacity: 1;
+    transform: none;
+}
+
+.cc-action-btn {
+    width: 32px;
+    height: 32px;
+}
+
+.cc-product-info h3 {
+    font-size: 13px;
+}
+
+.cc-product-price {
+    font-size: 12px;
+}
+
+.cc-add-cart {
+    font-size: 8px;
+}
+
+}
+
+@media (max-width: 380px) {
+
+.cc-product-image {
+    height: 220px;
+}
+
+.cc-add-cart {
+    display: none;
+}
+}
+.cc-newsletter {
+    background: #000;
+    color: #fff;
+}
+
+.cc-newsletter-label {
+    display: block;
+    color: #556b2f;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.cc-newsletter-title {
+    margin: 0;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    line-height: .95;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cc-newsletter-title em {
+    color: #556b2f;
+    font-style: normal;
+}
+
+.cc-newsletter-text {
+    max-width: 500px;
+    margin: 22px 0 0;
+    color: #aaa;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.newsletter-form {
+    border-bottom: 1px solid #555;
+    padding-bottom: 8px;
+}
+
+.newsletter-form .form-control {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+    padding: 15px 5px;
+    font-size: 14px;
+}
+
+.newsletter-form .form-control::placeholder {
+    color: #777;
+}
+
+.newsletter-form .form-control:focus {
+    background: transparent;
+    color: #fff;
+}
+
+.newsletter-form button {
+    border: 0;
+    background: #556b2f;
+    color: #fff;
+    padding: 12px 22px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .3s ease;
+}
+
+.newsletter-form button:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 991px) {
+    .cc-newsletter {
+        text-align: center;
+    }
+
+    .cc-newsletter-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .newsletter-form {
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .cc-newsletter {
+        padding: 45px 0 !important;
+    }
+
+    .cc-newsletter-title {
+        font-size: 2.7rem;
+    }
+
+    .cc-newsletter-text {
+        font-size: 14px;
+    }
+
+    .newsletter-form {
+        display: flex;
+    }
+
+    .newsletter-form button {
+        padding: 12px 16px;
+    }
+}

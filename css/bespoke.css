@@ -1,0 +1,442 @@
+/* ================= BESPOKE HERO ================= */
+
+.cc-bespoke-hero {
+    background: #f5f5f2;
+    overflow: hidden;
+}
+
+.cc-bespoke-hero-content {
+    padding: 100px 8%;
+}
+
+.cc-bespoke-label,
+.cc-bespoke-small-title {
+    color: #556b2f;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.cc-bespoke-hero h1 {
+    margin: 20px 0;
+    color: #000;
+    font-size: clamp(3.5rem, 7vw, 7rem);
+    font-weight: 800;
+    line-height: .85;
+    text-transform: uppercase;
+}
+
+.cc-bespoke-hero h1 span {
+    display: block;
+    color: #556b2f;
+}
+
+.cc-bespoke-hero p {
+    max-width: 520px;
+    color: #666;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.cc-bespoke-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 25px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    transition: .3s;
+}
+
+.cc-bespoke-btn:hover {
+    background: #556b2f;
+    color: #fff;
+}
+
+.cc-bespoke-hero-image {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cc-bespoke-hero-image img {
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    object-fit: contain;
+}
+
+
+/* ================= INTRO ================= */
+
+.cc-bespoke-intro {
+    background: #fff;
+    padding: 90px 0 55px;
+}
+
+.cc-bespoke-intro h2,
+.cc-bespoke-process h2,
+.cc-bespoke-form-box h2 {
+    margin: 12px 0 0;
+    color: #000;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 800;
+    line-height: .9;
+    text-transform: uppercase;
+}
+
+.cc-bespoke-intro h2 span,
+.cc-bespoke-process h2 span,
+.cc-bespoke-form-box h2 span {
+    color: #556b2f;
+}
+
+.cc-bespoke-intro p {
+    max-width: 480px;
+    margin: 0 0 0 auto;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* ================= PROCESS ================= */
+
+.cc-bespoke-process {
+    background: #fff;
+    padding: 60px 0 100px;
+}
+
+.cc-process-card {
+    height: 100%;
+    padding: 30px;
+    background: #f5f5f2;
+    border-top: 3px solid #556b2f;
+    transition: .3s;
+}
+
+.cc-process-card:hover {
+    transform: translateY(-7px);
+}
+
+.cc-process-card > span {
+    color: #999;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.cc-process-card i {
+    display: block;
+    margin: 30px 0 20px;
+    color: #556b2f;
+    font-size: 28px;
+}
+
+.cc-process-card h3 {
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cc-process-card p {
+    margin: 0;
+    color: #777;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+
+/* ================= STATEMENT ================= */
+
+.cc-bespoke-statement {
+    background: #000;
+    color: #fff;
+}
+
+.cc-bespoke-statement-image {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f2;
+    overflow: hidden;
+}
+
+.cc-bespoke-statement-image img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.cc-bespoke-statement-content {
+    height: 100%;
+    padding: 80px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cc-bespoke-statement-content > span {
+    color: #556b2f;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.cc-bespoke-statement-content h2 {
+    margin: 18px 0 25px;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 800;
+    line-height: .9;
+    text-transform: uppercase;
+}
+
+.cc-bespoke-statement-content h2 em {
+    color: #556b2f;
+    font-style: normal;
+}
+
+.cc-bespoke-statement-content p {
+    max-width: 500px;
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+
+/* ================= FORM ================= */
+
+.cc-bespoke-form-section {
+    background: #f5f5f2;
+    padding: 100px 0;
+}
+
+.cc-bespoke-form-box {
+    padding: 60px;
+    background: #fff;
+}
+
+.cc-bespoke-form-box > .text-center p {
+    color: #777;
+    font-size: 14px;
+}
+
+.cc-bespoke-form-box label {
+    display: block;
+    margin-bottom: 7px;
+    color: #222;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.cc-bespoke-form-box .form-control,
+.cc-bespoke-form-box .form-select {
+    min-height: 48px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    background: #fff;
+    color: #000;
+    padding: 12px 14px;
+    font-size: 13px;
+    box-shadow: none;
+}
+
+.cc-bespoke-form-box .form-control:focus,
+.cc-bespoke-form-box .form-select:focus {
+    border-color: #556b2f;
+    box-shadow: none;
+}
+
+.cc-bespoke-form-box textarea {
+    resize: none;
+}
+
+.cc-bespoke-submit {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    padding: 16px 28px;
+    border: 0;
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    transition: .3s;
+}
+
+.cc-bespoke-submit:hover {
+    background: #556b2f;
+}
+
+
+/* ================= CTA ================= */
+
+.cc-bespoke-cta {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.cc-bespoke-cta-box {
+    padding: 80px 25px;
+    background: #556b2f;
+    color: #fff;
+}
+
+.cc-bespoke-cta-box > span {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.cc-bespoke-cta-box h2 {
+    max-width: 900px;
+    margin: 18px auto 30px;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 800;
+    line-height: .9;
+    text-transform: uppercase;
+}
+
+.cc-bespoke-cta-box h2 em {
+    display: block;
+    color: #000;
+    font-style: normal;
+}
+
+.cc-bespoke-cta-box a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 25px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    transition: .3s;
+}
+
+.cc-bespoke-cta-box a:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+    .cc-bespoke-hero-content {
+        padding: 80px 30px 40px;
+        text-align: center;
+    }
+
+    .cc-bespoke-hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cc-bespoke-hero-image {
+        min-height: auto;
+        padding: 20px 30px 60px;
+    }
+
+    .cc-bespoke-intro {
+        padding: 70px 0 40px;
+    }
+
+    .cc-bespoke-intro p {
+        margin: 25px 0 0;
+    }
+
+    .cc-bespoke-process {
+        padding: 50px 0 70px;
+    }
+
+    .cc-bespoke-statement-image {
+        height: 500px;
+    }
+
+    .cc-bespoke-statement-content {
+        padding: 70px 30px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .cc-bespoke-hero-content {
+        padding: 60px 20px 30px;
+    }
+
+    .cc-bespoke-hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .cc-bespoke-hero p {
+        font-size: 14px;
+    }
+
+    .cc-bespoke-hero-image {
+        padding: 10px 20px 45px;
+    }
+
+    .cc-bespoke-intro {
+        padding: 55px 0 30px;
+    }
+
+    .cc-bespoke-intro h2,
+    .cc-bespoke-process h2,
+    .cc-bespoke-form-box h2 {
+        font-size: 2.7rem;
+    }
+
+    .cc-process-card {
+        padding: 25px;
+    }
+
+    .cc-bespoke-statement-image {
+        height: 380px;
+    }
+
+    .cc-bespoke-statement-content {
+        padding: 55px 20px;
+    }
+
+    .cc-bespoke-statement-content h2 {
+        font-size: 2.7rem;
+    }
+
+    .cc-bespoke-form-section {
+        padding: 50px 0;
+    }
+
+    .cc-bespoke-form-box {
+        padding: 30px 20px;
+    }
+
+    .cc-bespoke-cta {
+        padding: 50px 0;
+    }
+
+    .cc-bespoke-cta-box {
+        padding: 60px 20px;
+    }
+
+}

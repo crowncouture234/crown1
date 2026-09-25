@@ -1,0 +1,249 @@
+/* =========================
+   CROWN COUTURE NAVBAR
+========================= */
+
+.cc-navbar {
+    background-color: #556b2f !important;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.cc-logo {
+    color: #fff !important;
+    text-decoration: none;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.cc-logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.cc-logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+    line-height: 1;
+}
+
+/* Navigation links */
+.cc-navbar .nav-link {
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 7px;
+    padding: 8px 4px;
+}
+
+.cc-navbar .nav-link:hover,
+.cc-navbar .nav-link.active {
+    color: #b6b6b6 !important;
+}
+
+/* Menu button */
+.cc-navbar .navbar-toggler {
+    border: 1px solid #fff;
+    padding: 5px 9px;
+    box-shadow: none !important;
+}
+
+.cc-navbar .navbar-toggler i {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Icons */
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.navbar-actions a {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+.navbar-actions a:hover {
+    color: #ccc !important;
+}
+
+/* Cart number */
+.cart-icon span {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: #fff;
+    color: #333 !important;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 991.98px) {
+
+    .cc-navbar {
+        padding: 8px 0;
+    }
+
+    .cc-navbar .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .cc-logo {
+        gap: 7px;
+        max-width: calc(100% - 55px);
+    }
+
+    .cc-logo img {
+        width: 42px;
+        height: 42px;
+        flex-shrink: 0;
+    }
+
+    .cc-logo h1 {
+        font-size: 17px;
+        white-space: normal;
+        line-height: 1.1;
+    }
+
+    /* Mobile menu */
+    .cc-navbar .navbar-collapse {
+        background-color: #556b2f;
+        padding: 15px 0 10px;
+        margin-top: 8px;
+    }
+
+    .cc-navbar .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cc-navbar .nav-link {
+        padding: 10px 0;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    /* Mobile icons */
+    .navbar-actions {
+        justify-content: center;
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid #555;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 400px) {
+
+    .cc-logo img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .cc-logo h1 {
+        font-size: 15px;
+    }
+
+    .cc-navbar .navbar-toggler {
+        padding: 4px 7px;
+    }
+
+    .cc-navbar .navbar-toggler i {
+        font-size: 21px;
+    }
+}
+
+/* footer */
+.cc-footer{
+    background:#556b2f;
+    color:#fff;
+}
+
+.cc-footer h1,
+.cc-footer h6,
+.cc-footer p,
+.cc-footer span{
+    color:#fff;
+}
+
+.cc-footer h6{
+    font-size:12px;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.cc-footer a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-size:13px;
+    margin-bottom:12px;
+    opacity:.85;
+}
+
+.cc-footer a:hover{
+    opacity:1;
+}
+
+.footer-text{
+    max-width:380px;
+    line-height:1.7;
+    opacity:.85;
+}
+
+.footer-slogan{
+    font-style:italic;
+    line-height:1.7;
+}
+
+.social-links a{
+    width:38px;
+    height:38px;
+    border:1px solid rgba(255,255,255,.35);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+}
+
+.social-links a:hover{
+    background:#fff;
+    color:#556b2f;
+}
+
+.cc-footer .bi{
+    margin-right:8px;
+}
+
+.social-links .bi{
+    margin:0;
+}
+
+@media(max-width:576px){
+    .cc-footer h1{
+        font-size:20px!important;
+    }
+}
